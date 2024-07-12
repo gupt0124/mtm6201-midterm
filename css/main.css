@@ -2,6 +2,7 @@ html{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    width: 100%;
 }
 
 body {
@@ -9,4 +10,180 @@ body {
     background-color: #f3f0e9;
     color: #333;
     line-height: 1.6;
+    width: 100%;
+}
+
+.header{
+    background-color: #000;
+}
+
+.svg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding-top: 10px;
+}
+
+.nav{
+    background-color: #000;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav li{
+    display: inline;
+    text-align: center;
+}
+
+.nav li a {
+    padding-left: 25px;
+    color: #fff;
+    width: 100%;
+    text-decoration: none;
+}
+
+.hero{
+    padding-top: 250px;
+    padding-bottom: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    background-image: url(../images/hero-background.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+    color: #fff;
+}
+
+.hero h1, p {
+    padding-bottom: 30px;
+}
+
+.hero h1{
+    font-weight: bolder;
+}
+
+.hero a {
+    background-color: #fff;
+    padding: 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+h5{
+    color: #d69e3d;
+}
+
+.features{
+    text-align: center;
+}
+
+.features img{
+    width: 250px;
+    height: 250px;
+}
+
+.feacture h2{
+    font-size: 150%;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "a a"
+    "a a"
+    "b c"
+    "d e";
+}
+
+.pic1{
+    grid-area: a;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.pic2{
+    grid-area: b;
+    width: 100%;
+}
+
+.pic3{
+    grid-area: c;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.pic4{
+    grid-area: d;
+    width: 100%;
+}
+
+.pic5{
+    grid-area: e;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.about{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about img{
+    width: 100%;
+}
+
+.about a{
+    background-color: #000;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.details{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    background-image: url(../images/coffee-shop.jpeg);
+    background-position: 100% 100%;
+    background-size: cover;
+    color: #fff;
+}
+
+.order{
+    background-color: #fff;
+    padding: 15px;
+    color: #000;
+    text-decoration: none;
+}
+
+.loc{
+    background-color: none;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    border: 4px solid #fff;
+}
+
+.details h4{
+    color:#d69e3d;
+}
+
+.final{
+    background-color: #000;
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+    padding: 15px;
 }
