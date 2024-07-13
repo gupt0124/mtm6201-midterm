@@ -237,3 +237,127 @@ footer{
     padding: 10px;
 }
 
+@media  screen and (min-width: 768px) {
+
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "i i j k"
+        "i i l m";
+    }
+    
+    .pic1{
+        grid-area: i;
+        width: 100%;
+        margin-right: 10px;
+    }
+    
+    .pic2{
+        grid-area: j;
+        width: 100%;
+        margin-left: 10px;
+    }
+    
+    .pic3{
+        grid-area: k;
+        width: 100%;
+        margin-left: 20px;
+    }
+    
+    .pic4{
+        grid-area: l;
+        width: 100%;
+        margin-left: 10px;
+    }
+    
+    .pic5{
+        grid-area: m;
+        width: 100%;
+        margin-left: 20px;
+    } 
+    .feature1 {
+        grid-area: x;
+    }
+
+    .feature2{
+        grid-area: y;
+    }
+
+    .feature3{
+        grid-area: z;
+    }
+
+    .offers{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-template-areas:
+        "x y"
+        "z z";
+    }
+
+    .details{
+        display: flex;
+        justify-content: center;
+    }
+
+    .men{
+        padding-right: 10%;
+    }
+
+    .testimonials{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "p q r";
+    }
+
+    .testimonial1{
+        grid-area: p;
+    }
+
+    .testimonial2{
+        grid-area: q;
+    }
+
+    .testimonial3{
+        grid-area: r;
+    }
+
+    @media  screen and (min-width: 1100px) {
+
+
+        body{
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+
+        .hero{
+            width: 100%;
+            height: 1500px;
+            text-align: center;
+            background-image: url(../images/hero-background.jpg);
+            background-position: 100% 100%;
+            background-size: cover;
+            color: #fff;
+        }
+
+        .offers{
+            display: flex;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
