@@ -326,11 +326,12 @@ footer{
     .testimonial3{
         grid-area: r;
     }
+}
 
     @media  screen and (min-width: 1100px) {
 
 
-        body{
+        .header, section, .details, .about, .testi{
             padding-left: 20%;
             padding-right: 20%;
         }
@@ -347,6 +348,9 @@ footer{
 
         .offers{
             display: flex;
+        }
+        .details{
+            padding: 20px;
         }
     }
 
