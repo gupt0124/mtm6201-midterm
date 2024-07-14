@@ -332,8 +332,8 @@ footer{
 
 
         .header, section, .details, .about, .testi{
-            padding-left: 20%;
-            padding-right: 20%;
+            padding-left: auto;
+            padding-right: 30px;
         }
 
         .hero{
@@ -349,19 +349,21 @@ footer{
         .offers{
             display: flex;
         }
+
         .details{
             padding: 20px;
         }
+
+        .testimonial1{
+            width: 28rem;
+        }
+
+        .testimonial2{
+            width: 28rem;
+        }
+
+        .testimonial3{
+            width: 28rem;
+        }
+
     }
-
-
-
-
-
-
-
-
-
-
-
-}
