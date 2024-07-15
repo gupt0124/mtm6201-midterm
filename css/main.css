@@ -1,16 +1,23 @@
 html{
-    margin: 0px;
-    padding: 0px;
+    margin: auto;
+    padding: auto;
     box-sizing: border-box;
-    width: 100%;
+    width:auto;
 }
 
 body {
     font-family: 'Karla', sans-serif;
     background-color: #f3f0e9;
     color: #333;
-    line-height: 1.6;
-    width: 100%;
+    line-height: 1;
+    width: auto;
+}
+style{
+    div.relative {
+        position: relative;
+        left: 30px;
+        border: 3px solid #73AD21;
+      }
 }
 
 .header{
@@ -31,7 +38,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 10px;
+    padding: auto;
 }
 
 .nav li{
@@ -47,10 +54,7 @@ body {
 }
 
 .hero{
-    padding-top: 250px;
-    padding-bottom: 250px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: auto;
     text-align: center;
     background-image: url(../images/hero-background.jpg);
     background-position: 100% 100%;
@@ -59,7 +63,7 @@ body {
 }
 
 .hero h1, p {
-    padding-bottom: 30px;
+    padding: auto;
 }
 
 .hero h1{
@@ -68,7 +72,7 @@ body {
 
 .hero a {
     background-color: #fff;
-    padding: 15px;
+    padding: auto;
     color: #000;
     text-decoration: none;
 }
@@ -121,6 +125,7 @@ h5{
 .pic4{
     grid-area: d;
     width: 100%;
+    
 }
 
 .pic5{
@@ -130,45 +135,49 @@ h5{
 }
 
 .about{
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: auto;
 }
 
 .about img{
-    width: 100%;
+    width: 50%;
+    padding-right: 50%;
+    padding-top: 10%;
+    text-align: right;
+    div.relative {
+        position: relative;
+        left: 30px;
+        border: 3px solid #73AD21;
+      }
 }
 
 .about a{
     background-color: #000;
-    padding: 15px;
+    padding: auto;
     color: #fff;
     text-decoration: none;
 }
 
 .details{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 300px;
+    height: 100px;
+    width: auto;
     text-align: center;
     background-image: url(../images/coffee-shop.jpeg);
     background-position: 100% 100%;
-    background-size: cover;
+    background-size:contain;
     color: #fff;
 }
 
 .order{
     background-color: #fff;
-    padding: 15px;
+    padding: auto;
     color: #000;
     text-decoration: none;
 }
 
 .loc{
     background-color: none;
-    padding: 15px;
+    padding: auto;
     color: #fff;
     text-decoration: none;
     border: 4px solid #fff;
@@ -180,7 +189,7 @@ h5{
 
 .final{
     background-color: #000;
-    padding: 10px;
+    padding: auto;
 }
 
 .testi h2{
@@ -202,7 +211,7 @@ h5{
     background-position: 100% 100%;
     background-size: cover;
     text-align: left;
-    padding: 10px;
+    padding: auto;
     justify-content: flex-end;
     align-items: flex-end;
 }
@@ -214,7 +223,7 @@ h5{
     background-position: 100% 100%;
     background-size: cover;
     text-align: left;
-    padding: 10px;
+    padding: auto;
     justify-content: flex-end;
     align-items: flex-end;
 }
@@ -226,7 +235,7 @@ h5{
     background-position: 100% 100%;
     background-size: cover;
     text-align: left;
-    padding: 10px;
+    padding: auto;
     justify-content: flex-end;
     align-items: flex-end;
 }
@@ -268,7 +277,7 @@ footer{
     
     .pic4{
         grid-area: l;
-        width: 100%;
+        width: 100px;
         margin-left: 10px;
     }
     
@@ -277,6 +286,7 @@ footer{
         width: 100%;
         margin-left: 20px;
     } 
+    
     .feature1 {
         grid-area: x;
     }
@@ -304,7 +314,7 @@ footer{
     }
 
     .men{
-        padding-right: 10%;
+        padding-right: auto;
     }
 
     .testimonials{
@@ -333,7 +343,7 @@ footer{
 
         .header, section, .details, .about, .testi{
             padding-left: auto;
-            padding-right: 30px;
+            padding-right: auto;
         }
 
         .hero{
@@ -351,7 +361,7 @@ footer{
         }
 
         .details{
-            padding: 20px;
+            padding: auto;
         }
 
         .testimonial1{
